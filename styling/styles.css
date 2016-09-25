@@ -1,3 +1,14 @@
 #topbar{
-  background-color: pink
+  background-color: darkviolet;
+  margin-top: -1cm;
+  margin-left: -3cm;
+  margin-right: -3cm;
+}
+.bukkitbody {
+	background-color:dimgray;
+}
+.projecttitle{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:50px;
+	color:white;
 }
