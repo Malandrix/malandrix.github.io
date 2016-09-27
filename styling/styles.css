@@ -17,7 +17,7 @@ body {
 .description {
 		padding-left: 0;
     padding-right: 0;
-    width: 31%;
+    max-width: 300px;
     padding-left: 26px;
     text-align: center;
     display: inline-block;
