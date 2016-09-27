@@ -1,14 +1,45 @@
-#topbar{
-  background-color: darkviolet;
-  margin-top: -1cm;
-  margin-left: -3cm;
-  margin-right: -3cm;
+html {
+    width: 100%;
+    min-width: 1060px;
 }
-.bukkitbody {
-	background-color:dimgray;
+
+body {
+    font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+    color: white;
+    background-color: dimgray;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
-.projecttitle{
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:50px;
-	color:white;
+
+.description {
+		padding-left: 0;
+    padding-right: 0;
+    width: 31%;
+    padding-left: 26px;
+    text-align: center;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+h1{
+	font-size: 25px;
+}
+
+#topbar {
+    text-align: left;
+    background-color: darkviolet;
+    color: white;
+    height: 48px;
+    padding-bottom: px;
+}
+
+.bukkitbody {}
+
+.projecttitle {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    color: white;
 }
