@@ -1,6 +1,5 @@
 html {
     width: 100%;
-    min-width: 1060px;
 }
 
 body {
@@ -15,28 +14,27 @@ body {
 }
 
 .description {
-		padding-left: 0;
+    padding-left: 0;
     padding-right: 0;
-    width: 31%;
+    max-width: 450px;
     padding-left: 26px;
     text-align: center;
     display: inline-block;
     line-height: 1.5;
 }
 
-h1{
-	font-size: 25px;
+h1 {
+    font-size: 25px;
 }
 
 #topbar {
     text-align: left;
     background-color: darkviolet;
+    max-width: 100%;
     color: white;
     height: 48px;
     padding-bottom: px;
 }
-
-.bukkitbody {}
 
 .projecttitle {
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
