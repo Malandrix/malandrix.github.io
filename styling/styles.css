@@ -5,7 +5,7 @@ html {
 body {
     font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
     color: white;
-    background-color: dimgray;
+    background-color: silver;
     margin: 0;
     margin-top: 0px;
     margin-right: 0px;
@@ -13,19 +13,24 @@ body {
     margin-left: 0px;
 }
 
-.wrapper{
-  text-align: center;
+.wrapper {
+    text-align: center;
+}
+
+.row {
+    background-color: dimgray;
 }
 
 .model-of-3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .description {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     max-width: 450px;
     text-align: center;
     display: inline-block;
@@ -33,7 +38,7 @@ body {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 50px;
 }
 
 #topbar {
