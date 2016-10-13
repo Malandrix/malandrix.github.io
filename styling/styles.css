@@ -5,12 +5,33 @@ html {
 body {
     font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
     color: white;
-    background-color: silver;
+    background-color: darkviolet;
+    padding-bottom: -20px;
     margin: 0;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+}
+header {
+    height: 100vh;
+    background-image: url(../images/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    color: darkviolet;
+}
+
+#top{
+    font-size: 50px;
+}
+#bottom {
+    font-size: 40px;
 }
 
 .wrapper {
@@ -44,6 +65,16 @@ h1 {
 #topbar {
     text-align: left;
     background-color: darkviolet;
+    max-width: 100%;
+    color: white;
+    height: 48px;
+    padding-bottom: px;
+}
+
+#infobar {
+    text-align: left;
+    background-color: darkviolet;
+    border-top: 20px;
     max-width: 100%;
     color: white;
     height: 48px;
